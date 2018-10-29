@@ -9,14 +9,30 @@ Reward is given for moving forward, total 300+ points up to the far end. If the 
 
 This repo represents implementation with reinforcement learning using Asynchronous Advantage Actor-Critic (A3C) in Pytorch an algorithm from Google Deep Mind's paper "Asynchronous Methods for Deep Reinforcement Learning." on BipedalWalker-v2.
 
-### Requirements
+## Requirements
 
 - Python 3.6+
 - Openai Gym ( refere to [gym](https://github.com/openai/gym)
 - Pytorch(depending upon your system without GPU - conda install pytorch-cpu torchvision-cpu -c pytorch)
 - setproctitle(pip install setproctitle)
- 
- 
+
+## Algorithm: Asynchronous Advantage Actor-Critic
+
+### Define Parameters
+
+lr: 0.0001 : Number of steps in training loop
+gamma: 0.99 : Number by how much to check model 
+tau: 1.0 :Number by increasing training steps
+seed: 1 : Random Seed for generating noice
+workers: 6 : Assigned cores for trainning the model
+num_steps: 20 : Number of steps to be taken
+max_episode_length: 10000 : Mac number of steps per episode
+env: BipedalWalker-v2 : enviroment
+optimizer: Adam : Optimization using adam activation function
+model: MLP : model used for traing enviroment
+stack_frames: 1 : Per grame to be stacked in training
+gpu_ids: [-1] : Ids assigned to use gpu
+  
  ## Training
  
  While training this model please make sure you assign the worker efficiently other wise it will not take forever to train.
