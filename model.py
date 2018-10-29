@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from utils import norm_col_init, weights_init, weights_init_mlp
 
-
+"""
 class A3C_CONV(torch.nn.Module):
     def __init__(self, num_inputs, action_space):
         super(A3C_CONV, self).__init__()
@@ -61,7 +61,7 @@ class A3C_CONV(torch.nn.Module):
 
         return self.critic_linear(x), F.softsign(self.actor_linear(x)), self.actor_linear2(x), (hx, cx)
 
-
+"""
 class A3C_MLP(torch.nn.Module):
     def __init__(self, num_inputs, action_space, n_frames):
         super(A3C_MLP, self).__init__()
