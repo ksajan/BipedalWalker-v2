@@ -44,7 +44,7 @@ python main.py --workers 6 --env BipedalWalker-v2 --save-max True --model MLP --
 
 To run a 100 episode gym evaluation with trained model
 ```
-python gym_eval.py --env BipedalWalkerHardcore-v2 --num-episodes 100 --stack-frames 4 --model CONV --new-gym-eval True
+python gym_eval.py --env BipedalWalkerHardcore-v2 --num-episodes 100 --stack-frames 1 --model CONV --new-gym-eval True
 ```
 
 ## Project Reference
