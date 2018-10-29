@@ -1,4 +1,8 @@
 # BipedalWalker-v2
+
+BipedalWalker-v2 defines "solving" as getting average reward of 300 over 100 consecutive trials
+Reward is given for moving forward, total 300+ points up to the far end. If the robot falls, it gets -100. Applying motor torque costs a small amount of points, more optimal agent will get better score. State consists of hull angle speed, angular velocity, horizontal speed, vertical speed, position of joints and joints angular speed, legs contact with ground, and 10 lidar rangefinder measurements. There's no coordinates in the state vector.
+
 ### A3C LSTM
 
 ![A3C LSTM playing BipedalWalker-v2](https://github.com/ksajan/BipedalWalker-v2/blob/master/Demo/BipedalWalker.gif)
