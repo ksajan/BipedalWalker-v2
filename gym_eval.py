@@ -5,7 +5,7 @@ import argparse
 import torch
 from environment import create_env
 from utils import setup_logger
-from model import A3C_CONV, A3C_MLP
+from model import A3C_MLP
 from player_util import Agent
 from torch.autograd import Variable
 import gym
