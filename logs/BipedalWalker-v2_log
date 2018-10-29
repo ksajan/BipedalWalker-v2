@@ -1,0 +1,21 @@
+2018-10-29 13:29:55,290 : lr: 0.0001
+2018-10-29 13:29:55,291 : gamma: 0.99
+2018-10-29 13:29:55,291 : tau: 1.0
+2018-10-29 13:29:55,291 : seed: 1
+2018-10-29 13:29:55,291 : workers: 32
+2018-10-29 13:29:55,291 : num_steps: 20
+2018-10-29 13:29:55,291 : max_episode_length: 10000
+2018-10-29 13:29:55,291 : env: BipedalWalker-v2
+2018-10-29 13:29:55,291 : shared_optimizer: True
+2018-10-29 13:29:55,291 : load: False
+2018-10-29 13:29:55,291 : save_max: True
+2018-10-29 13:29:55,292 : optimizer: Adam
+2018-10-29 13:29:55,292 : load_model_dir: trained_models/
+2018-10-29 13:29:55,292 : save_model_dir: trained_models/
+2018-10-29 13:29:55,292 : log_dir: logs/
+2018-10-29 13:29:55,292 : model: MLP
+2018-10-29 13:29:55,292 : stack_frames: 1
+2018-10-29 13:29:55,292 : gpu_ids: [-1]
+2018-10-29 13:29:55,292 : amsgrad: True
+2018-10-29 13:29:55,492 : Time 00h 00m 00s, episode reward -91.95931652701468, episode length 122, reward mean -91.9593
+2018-10-29 13:30:56,666 : Time 00h 01m 01s, episode reward -106.27526113982188, episode length 145, reward mean -99.1173
