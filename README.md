@@ -83,3 +83,7 @@ python gym_eval.py --env BipedalWalkerHardcore-v2 --num-episodes 100 --stack-fra
 [6]: https://arxiv.org/pdf/1703.03864.pdf
 [7]: http://cs231n.stanford.edu/reports/2017/pdfs/618.pdf
 [8]: https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2
+
+
+#### Note
+- I will update the files as it progress Right now facing difficulty n training model BipedalWalker-v2 on gpu and on cpu its taling lot of time as of now the model passes the reward thresold value but can't keep it up it varies a lot with margin of 200 - -200 as of now.
